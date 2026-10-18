@@ -1,0 +1,44 @@
+# Local builds and downloaded build dependencies
+/.cargo-home/
+/.deps/
+/build/
+/bin/
+__pycache__/
+*.py[cod]
+
+# Local hardware captures, generated images, private reverse engineering
+/dumps/
+/analysis/
+/logs/
+/patches/
+/.private/
+/.local/
+/WORK_STATE.md
+*.asm
+*.dis51*
+*.hex
+*.zip
+*.tar
+*.tar.gz
+*.bundle
+
+# Publish only the curated measurement evidence, not future captures
+/reports/*
+!/reports/README.md
+!/reports/comparison.json
+!/reports/firmware-verification.json
+!/reports/reset-origin-ftrace.txt
+!/reports/stock/
+!/reports/candidate-v1/
+!/reports/candidate-v2/
+!/reports/ep0-localization/
+
+# Only these two manufacturer firmware images belong in this publication
+*.bin
+!/firmware/stock-full-isp.bin
+!/firmware/patched-v2-full-isp.bin
+
+# Manufacturer website copies and PDF extracts stay out
+/references/*
+!/references/smk/
+/docs/datasheets/*.txt

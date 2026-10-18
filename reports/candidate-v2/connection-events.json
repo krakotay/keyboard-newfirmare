@@ -1,0 +1,11 @@
+[
+  {
+    "event": "device_unavailable_or_resetting",
+    "elapsed_s": 3.302
+  },
+  {
+    "event": "new_usb_address",
+    "address": 43,
+    "elapsed_s": 8.211
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "report_version": 1,
+  "date_utc": "2026-10-18",
+  "conclusion": "First v2 reconnect is free of the previous interrupt EPROTO/recovery-reset pattern; repeatability and BIOS remain untested.",
+  "captures": [
+    {
+      "image_or_experiment": "stock",
+      "source": "reports/stock",
+      "eproto_interrupt_completions": 26,
+      "kernel_recovery_resets": 2,
+      "successful_keyboard_reports": 24,
+      "partial_capture": true
+    },
+    {
+      "image_or_experiment": "candidate-v1",
+      "source": "reports/candidate-v1",
+      "eproto_interrupt_completions": 26,
+      "kernel_recovery_resets": 2,
+      "successful_keyboard_reports": 16,
+      "partial_capture": true
+    },
+    {
+      "image_or_experiment": "candidate-v2",
+      "source": "reports/candidate-v2",
+      "eproto_interrupt_completions": 0,
+      "kernel_recovery_resets": 0,
+      "successful_keyboard_reports": 28,
+      "partial_capture": true
+    },
+    {
+      "image_or_experiment": "ep0-localization",
+      "source": "reports/ep0-localization",
+      "eproto_interrupt_completions": 24,
+      "kernel_recovery_resets": 2,
+      "successful_keyboard_reports": 177,
+      "partial_capture": false
+    }
+  ],
+  "source_sha256": {
+    "reports/stock/connection-events.json": "9f0ffd12e04155a6b1f922cabe0de19e1688ee48af5538c57a50c7e7cb840d5e",
+    "reports/stock/kernel-usb.log": "4ce77cbfe4a4e71b0594b878ff451c22c4a6d8cc695a9eb0c5c89847ed5679a5",
+    "reports/stock/report.json": "882ed8f814043813d81c48c4910efb6edc07f4142a2daeafc9711f25875b38ab",
+    "reports/stock/report.md": "8ebf15517483096efe06a7620edaf8ee6ba35a1e0bce6fdbd57225c732e91b80",
+    "reports/stock/usbmon-headers.txt": "78a482b32c4ac5391b9e3cc2ba94846214799fa49eaf163d12b0bbfc26daf878",
+    "reports/candidate-v1/connection-events.json": "21a28d0e3d27d8e58de67a8b45c54a86eeb14733ab158958ac93c14b8a41b872",
+    "reports/candidate-v1/kernel-usb.log": "72d88e57da6001a4dec1c53fc1374e9777cc1d1ccc6410a2d3c3f9e77d52fa40",
+    "reports/candidate-v1/report.json": "97bc3ff2dc386cc7595fef55a9beeed20fae6d29e834dced2499f765d115cb4c",
+    "reports/candidate-v1/report.md": "357726aec3bf5564b295bde01a5b924952d15bcfc7bac4a86c0b41be335a1c27",
+    "reports/candidate-v1/usbmon-headers.txt": "ff0a853793f7fcfecd173330f94d94269aedc6a16e0999afb00d466871020941",
+    "reports/candidate-v2/connection-events.json": "099c96f6219c0d698cca5a2be90310ee1433ba0f1706ef3b6ad0b405b5267ed9",
+    "reports/candidate-v2/kernel-usb.log": "ed18f709ecc1ed4c39318513331703a8df8c12498bea6fc910cec820ae549e18",
+    "reports/candidate-v2/report.json": "bca5ce2839980826914c51c27a8d7a1595adef9e49070a62fc89806fad481ae1",
+    "reports/candidate-v2/report.md": "469f63ea485d47b98a5fc1d8af63a1ebacd62ad3b0700154f510dad882980c18",
+    "reports/candidate-v2/usbmon-headers.txt": "22375a77eb333f963f771ac57aaff36d24afa1ac28de26024b387c75c8170062",
+    "reports/ep0-localization/connection-events.json": "a808e6f715a5d828828570e303f733a98a3d8fe31f39939df47247e7e8a55802",
+    "reports/ep0-localization/control-probe.json": "5b685e1b3208fa99e7932cad57bfda4c328f7fc82f55d59eb88a6f19df96f206",
+    "reports/ep0-localization/kernel-usb.log": "7d20fda2746ee1f968f7026578a0c7e01667f0aee4e378decb8143b31a5cf8bf",
+    "reports/ep0-localization/report.json": "2e1a69f8ceddae8fe20f8f168a21e8e7c5eb1d0eec47a6949cd77da53bdb43d4",
+    "reports/ep0-localization/report.md": "c98feab49bbfe8fda00cbeb36789040f55dde109e3ccd461897d099bde3bb666",
+    "reports/ep0-localization/usbmon-headers.txt": "4dde6518fe9f06089c374c17d45cef3281e7f7f25cd9e89174fc93e2c13b2e62",
+    "reports/firmware-verification.json": "9205af6b8d5b5e9d2fcb27d8c6cd19eae0e0859a1a5fd78ed434a2c286966023",
+    "reports/reset-origin-ftrace.txt": "882beecf7ac482a9c665ca86e73b77d0c5b78496ca405e216897afcc05767d24"
+  }
+}

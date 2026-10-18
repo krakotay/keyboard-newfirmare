@@ -1,0 +1,28 @@
+[12045.920176] HOST kernel: usb 3-2: USB disconnect, device number 37
+[12052.911764] HOST kernel: usb 3-2: new full-speed USB device number 38 using xhci_hcd
+[12053.035611] HOST kernel: usb 3-2: New USB device found, idVendor=391d, idProduct=2005, bcdDevice=30.09
+[12053.037467] HOST kernel: usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[12053.037469] HOST kernel: usb 3-2: Product: VGN V108 Wired Keyboard
+[12053.037470] HOST kernel: usb 3-2: Manufacturer: SINOWEALTH
+[12056.258535] HOST kernel: usb 3-2: usbfs: USBDEVFS_CONTROL failed cmd python3 rqt 128 rq 6 len 18 ret -71
+[12056.258875] HOST kernel: usb 3-2: usbfs: USBDEVFS_CONTROL failed cmd python3 rqt 128 rq 8 len 1 ret -71
+[12056.360631] HOST kernel: usb 3-2: usbfs: USBDEVFS_CONTROL failed cmd python3 rqt 128 rq 6 len 18 ret -71
+[12056.360833] HOST kernel: usb 3-2: usbfs: USBDEVFS_CONTROL failed cmd python3 rqt 128 rq 8 len 1 ret -71
+[12056.462939] HOST kernel: usb 3-2: usbfs: USBDEVFS_CONTROL failed cmd python3 rqt 128 rq 6 len 18 ret -71
+[12056.463224] HOST kernel: usb 3-2: usbfs: USBDEVFS_CONTROL failed cmd python3 rqt 128 rq 8 len 1 ret -71
+[12056.565236] HOST kernel: usb 3-2: usbfs: USBDEVFS_CONTROL failed cmd python3 rqt 128 rq 6 len 18 ret -71
+[12056.565530] HOST kernel: usb 3-2: usbfs: USBDEVFS_CONTROL failed cmd python3 rqt 128 rq 8 len 1 ret -71
+[12056.667600] HOST kernel: usb 3-2: usbfs: USBDEVFS_CONTROL failed cmd python3 rqt 128 rq 6 len 18 ret -71
+[12056.667869] HOST kernel: usb 3-2: usbfs: USBDEVFS_CONTROL failed cmd python3 rqt 128 rq 8 len 1 ret -71
+[12056.769808] HOST kernel: usb 3-2: usbfs: USBDEVFS_CONTROL failed cmd python3 rqt 128 rq 6 len 18 ret -71
+[12056.770024] HOST kernel: usb 3-2: usbfs: USBDEVFS_CONTROL failed cmd python3 rqt 128 rq 8 len 1 ret -71
+[12056.871973] HOST kernel: usb 3-2: usbfs: USBDEVFS_CONTROL failed cmd python3 rqt 128 rq 6 len 18 ret -71
+[12056.872209] HOST kernel: usb 3-2: usbfs: USBDEVFS_CONTROL failed cmd python3 rqt 128 rq 8 len 1 ret -71
+[12056.974471] HOST kernel: usb 3-2: usbfs: USBDEVFS_CONTROL failed cmd python3 rqt 128 rq 6 len 18 ret -71
+[12056.974681] HOST kernel: usb 3-2: usbfs: USBDEVFS_CONTROL failed cmd python3 rqt 128 rq 8 len 1 ret -71
+[12057.076541] HOST kernel: usb 3-2: usbfs: USBDEVFS_CONTROL failed cmd python3 rqt 128 rq 6 len 18 ret -71
+[12057.076885] HOST kernel: usb 3-2: usbfs: USBDEVFS_CONTROL failed cmd python3 rqt 128 rq 8 len 1 ret -71
+[12057.179066] HOST kernel: usb 3-2: usbfs: USBDEVFS_CONTROL failed cmd python3 rqt 128 rq 6 len 18 ret -71
+[12057.179268] HOST kernel: usb 3-2: usbfs: USBDEVFS_CONTROL failed cmd python3 rqt 128 rq 8 len 1 ret -71
+[12057.320239] HOST kernel: usb 3-2: reset full-speed USB device number 38 using xhci_hcd
+[12057.576294] HOST kernel: usb 3-2: reset full-speed USB device number 38 using xhci_hcd

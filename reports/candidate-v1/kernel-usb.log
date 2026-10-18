@@ -1,0 +1,8 @@
+[11149.389860] HOST kernel: usb 3-2: USB disconnect, device number 35
+[11152.389122] HOST kernel: usb 3-2: new full-speed USB device number 36 using xhci_hcd
+[11152.513354] HOST kernel: usb 3-2: New USB device found, idVendor=391d, idProduct=2005, bcdDevice=30.09
+[11152.515277] HOST kernel: usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[11152.515280] HOST kernel: usb 3-2: Product: VGN V108 Wired Keyboard
+[11152.515281] HOST kernel: usb 3-2: Manufacturer: SINOWEALTH
+[11155.601492] HOST kernel: usb 3-2: reset full-speed USB device number 36 using xhci_hcd
+[11155.857537] HOST kernel: usb 3-2: reset full-speed USB device number 36 using xhci_hcd

@@ -1,0 +1,386 @@
+{
+  "report_version": 1,
+  "created_utc": "20261018T052049.513131Z",
+  "label": "candidate-v1-ep0-localization",
+  "verdict": "Transport errors observed",
+  "mode": "live",
+  "port": "3-2",
+  "initial_address": 37,
+  "physical_reconnect_observed": true,
+  "connection_events": [
+    {
+      "event": "device_unavailable_or_resetting",
+      "elapsed_s": 11.781
+    },
+    {
+      "event": "new_usb_address",
+      "address": 38,
+      "elapsed_s": 18.759
+    },
+    {
+      "event": "device_unavailable_or_resetting",
+      "elapsed_s": 23.042
+    },
+    {
+      "event": "device_unavailable_or_resetting",
+      "elapsed_s": 23.298
+    }
+  ],
+  "control_probe": {
+    "enabled": true,
+    "requests": 1028,
+    "errno_counts": {
+      "0": 1004,
+      "19": 2,
+      "32": 2,
+      "71": 20
+    },
+    "error": null,
+    "configuration_values": [
+      1
+    ],
+    "maximum_latency_ms": 168.058,
+    "limitation": "Periodic standard IN requests perturb USB traffic; use to localize the fault, not to benchmark unchanged startup latency."
+  },
+  "duration_s": 60.0,
+  "requested_duration_s": 60,
+  "stop_reason": "timer_expired",
+  "partial_capture": false,
+  "journal_available": true,
+  "journal_error": null,
+  "metrics": {
+    "bus": 3,
+    "addresses": [
+      38
+    ],
+    "completion_status_counts": {
+      "0": 980,
+      "-32": 5,
+      "-71": 44,
+      "-2": 2
+    },
+    "interrupt_endpoints": {
+      "1": {
+        "successful": 177,
+        "eproto": 12,
+        "other_errors": 0
+      },
+      "2": {
+        "successful": 0,
+        "eproto": 12,
+        "other_errors": 0
+      }
+    },
+    "eproto_completions": 24,
+    "error_events": [
+      {
+        "time_us": 3862265509,
+        "transfer": "Ci:3:038:0",
+        "status": -32,
+        "latency_ms": 0.168
+      },
+      {
+        "time_us": 3862265713,
+        "transfer": "Ci:3:038:0",
+        "status": -32,
+        "latency_ms": 0.197
+      },
+      {
+        "time_us": 3862265970,
+        "transfer": "Ci:3:038:0",
+        "status": -32,
+        "latency_ms": 0.255
+      },
+      {
+        "time_us": 3863750412,
+        "transfer": "Ci:3:038:0",
+        "status": -32,
+        "latency_ms": 0.201
+      },
+      {
+        "time_us": 3865438040,
+        "transfer": "Ii:3:038:1",
+        "status": -71,
+        "latency_ms": 3167.902
+      },
+      {
+        "time_us": 3865438041,
+        "transfer": "Ii:3:038:2",
+        "status": -71,
+        "latency_ms": 3069.559
+      },
+      {
+        "time_us": 3865455051,
+        "transfer": "Ii:3:038:1",
+        "status": -71,
+        "latency_ms": 3.032
+      },
+      {
+        "time_us": 3865455052,
+        "transfer": "Ii:3:038:2",
+        "status": -71,
+        "latency_ms": 3.047
+      },
+      {
+        "time_us": 3865485097,
+        "transfer": "Ii:3:038:1",
+        "status": -71,
+        "latency_ms": 3.078
+      },
+      {
+        "time_us": 3865485098,
+        "transfer": "Ii:3:038:2",
+        "status": -71,
+        "latency_ms": 3.094
+      },
+      {
+        "time_us": 3865489378,
+        "transfer": "Ci:3:038:0",
+        "status": -71,
+        "latency_ms": 0.175
+      },
+      {
+        "time_us": 3865489720,
+        "transfer": "Ci:3:038:0",
+        "status": -71,
+        "latency_ms": 0.296
+      },
+      {
+        "time_us": 3865541121,
+        "transfer": "Ii:3:038:1",
+        "status": -71,
+        "latency_ms": 3.098
+      },
+      {
+        "time_us": 3865541123,
+        "transfer": "Ii:3:038:2",
+        "status": -71,
+        "latency_ms": 3.115
+      },
+      {
+        "time_us": 3865591490,
+        "transfer": "Ci:3:038:0",
+        "status": -71,
+        "latency_ms": 0.184
+      },
+      {
+        "time_us": 3865591694,
+        "transfer": "Ci:3:038:0",
+        "status": -71,
+        "latency_ms": 0.177
+      },
+      {
+        "time_us": 3865655095,
+        "transfer": "Ii:3:038:1",
+        "status": -71,
+        "latency_ms": 3.023
+      },
+      {
+        "time_us": 3865655097,
+        "transfer": "Ii:3:038:2",
+        "status": -71,
+        "latency_ms": 3.041
+      },
+      {
+        "time_us": 3865693810,
+        "transfer": "Ci:3:038:0",
+        "status": -71,
+        "latency_ms": 0.182
+      },
+      {
+        "time_us": 3865694045,
+        "transfer": "Ci:3:038:0",
+        "status": -71,
+        "latency_ms": 0.173
+      },
+      {
+        "time_us": 3865767146,
+        "transfer": "Ii:3:038:1",
+        "status": -71,
+        "latency_ms": 3.123
+      },
+      {
+        "time_us": 3865767147,
+        "transfer": "Ii:3:038:2",
+        "status": -71,
+        "latency_ms": 3.139
+      },
+      {
+        "time_us": 3865796119,
+        "transfer": "Ci:3:038:0",
+        "status": -71,
+        "latency_ms": 0.26
+      },
+      {
+        "time_us": 3865796415,
+        "transfer": "Ci:3:038:0",
+        "status": -71,
+        "latency_ms": 0.232
+      },
+      {
+        "time_us": 3865879158,
+        "transfer": "Ii:3:038:1",
+        "status": -71,
+        "latency_ms": 3.087
+      },
+      {
+        "time_us": 3865879159,
+        "transfer": "Ii:3:038:2",
+        "status": -71,
+        "latency_ms": 3.103
+      },
+      {
+        "time_us": 3865898503,
+        "transfer": "Ci:3:038:0",
+        "status": -71,
+        "latency_ms": 0.241
+      },
+      {
+        "time_us": 3865898768,
+        "transfer": "Ci:3:038:0",
+        "status": -71,
+        "latency_ms": 0.227
+      },
+      {
+        "time_us": 3865991142,
+        "transfer": "Ii:3:038:1",
+        "status": -71,
+        "latency_ms": 3.121
+      },
+      {
+        "time_us": 3865991144,
+        "transfer": "Ii:3:038:2",
+        "status": -71,
+        "latency_ms": 3.139
+      },
+      {
+        "time_us": 3866000727,
+        "transfer": "Ci:3:038:0",
+        "status": -71,
+        "latency_ms": 0.191
+      },
+      {
+        "time_us": 3866000945,
+        "transfer": "Ci:3:038:0",
+        "status": -71,
+        "latency_ms": 0.176
+      },
+      {
+        "time_us": 3866102908,
+        "transfer": "Ci:3:038:0",
+        "status": -71,
+        "latency_ms": 0.185
+      },
+      {
+        "time_us": 3866103102,
+        "transfer": "Ii:3:038:1",
+        "status": -71,
+        "latency_ms": 3.079
+      },
+      {
+        "time_us": 3866103141,
+        "transfer": "Ci:3:038:0",
+        "status": -71,
+        "latency_ms": 0.196
+      },
+      {
+        "time_us": 3866103171,
+        "transfer": "Ii:3:038:2",
+        "status": -71,
+        "latency_ms": 3.163
+      },
+      {
+        "time_us": 3866205416,
+        "transfer": "Ci:3:038:0",
+        "status": -71,
+        "latency_ms": 0.199
+      },
+      {
+        "time_us": 3866205629,
+        "transfer": "Ci:3:038:0",
+        "status": -71,
+        "latency_ms": 0.177
+      },
+      {
+        "time_us": 3866215151,
+        "transfer": "Ii:3:038:1",
+        "status": -71,
+        "latency_ms": 3.129
+      },
+      {
+        "time_us": 3866215153,
+        "transfer": "Ii:3:038:2",
+        "status": -71,
+        "latency_ms": 3.146
+      },
+      {
+        "time_us": 3866307506,
+        "transfer": "Ci:3:038:0",
+        "status": -71,
+        "latency_ms": 0.187
+      },
+      {
+        "time_us": 3866307842,
+        "transfer": "Ci:3:038:0",
+        "status": -71,
+        "latency_ms": 0.305
+      },
+      {
+        "time_us": 3866327227,
+        "transfer": "Ii:3:038:1",
+        "status": -71,
+        "latency_ms": 3.205
+      },
+      {
+        "time_us": 3866327229,
+        "transfer": "Ii:3:038:2",
+        "status": -71,
+        "latency_ms": 3.222
+      },
+      {
+        "time_us": 3866410047,
+        "transfer": "Ci:3:038:0",
+        "status": -71,
+        "latency_ms": 0.177
+      },
+      {
+        "time_us": 3866410251,
+        "transfer": "Ci:3:038:0",
+        "status": -71,
+        "latency_ms": 0.175
+      },
+      {
+        "time_us": 3866439238,
+        "transfer": "Ii:3:038:1",
+        "status": -71,
+        "latency_ms": 3.216
+      },
+      {
+        "time_us": 3866439241,
+        "transfer": "Ii:3:038:2",
+        "status": -71,
+        "latency_ms": 3.233
+      },
+      {
+        "time_us": 3876656830,
+        "transfer": "Ci:3:038:0",
+        "status": -32,
+        "latency_ms": 0.191
+      }
+    ],
+    "maximum_control_latency_ms": 3.51,
+    "first_submission_to_first_8byte_keyboard_report_ms": 10555.094,
+    "malformed_rows": 0
+  },
+  "kernel_reset_count": 2,
+  "kernel_reset_lines": [
+    "[12057.320239] HOST kernel: usb 3-2: reset full-speed USB device number 38 using xhci_hcd",
+    "[12057.576294] HOST kernel: usb 3-2: reset full-speed USB device number 38 using xhci_hcd"
+  ],
+  "limitations": [
+    "USB address change confirms re-enumeration, not a measured power-off interval.",
+    "The first successful keyboard report depends on a key press and is not an exact readiness time.",
+    "Time before USB enumeration and BIOS behavior are not measured.",
+    "No keystroke payload is retained. The image label is user-supplied; firmware is not read or written."
+  ]
+}

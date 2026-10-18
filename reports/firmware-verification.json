@@ -1,0 +1,17 @@
+{
+  "report_version": 1,
+  "created_utc": "20261018T053133.023004Z",
+  "requested_image": "candidate-v2",
+  "execute": true,
+  "recover": false,
+  "expected_full_sha256": "97e1f51c616a61b400b079cb5cf3b6a8a0a63bed485a19fcd838e3fc2bb8f6be",
+  "payload_sha256": "ebdf8c55b77f5362bbbfe008ec9b710894ec072e5255bbdd45e242eb0ebdec49",
+  "status": "written_and_verified",
+  "write_scope": "Main firmware only, 61440 bytes. Original 4096-byte bootloader excluded from write payload.",
+  "before_full_sha256": "1d8147815621fdd2b570928406171aa612b13de957053dd84a67ecdf3c1e41c1",
+  "previous_image": "candidate",
+  "readback_full_sha256": "97e1f51c616a61b400b079cb5cf3b6a8a0a63bed485a19fcd838e3fc2bb8f6be",
+  "bootloader_unchanged": true,
+  "normal_usb_restored": true,
+  "note": "Summary of the user-executed write and independently checked saved readback. Local backup images and operation logs are excluded from this publication."
+}

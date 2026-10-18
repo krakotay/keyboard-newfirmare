@@ -1,0 +1,87 @@
+{
+  "report_version": 1,
+  "created_utc": "20261018T053203.631255Z",
+  "label": "candidate-v2",
+  "verdict": "No interrupt transfer errors observed in this capture",
+  "mode": "live",
+  "port": "3-2",
+  "initial_address": 42,
+  "physical_reconnect_observed": true,
+  "connection_events": [
+    {
+      "event": "device_unavailable_or_resetting",
+      "elapsed_s": 3.302
+    },
+    {
+      "event": "new_usb_address",
+      "address": 43,
+      "elapsed_s": 8.211
+    }
+  ],
+  "control_probe": {
+    "enabled": false
+  },
+  "duration_s": 16.182,
+  "requested_duration_s": 45,
+  "stop_reason": "user_interrupt",
+  "partial_capture": true,
+  "journal_available": true,
+  "journal_error": null,
+  "metrics": {
+    "bus": 3,
+    "addresses": [
+      43
+    ],
+    "completion_status_counts": {
+      "0": 41,
+      "-32": 3
+    },
+    "interrupt_endpoints": {
+      "1": {
+        "successful": 28,
+        "eproto": 0,
+        "other_errors": 0
+      }
+    },
+    "eproto_completions": 0,
+    "error_events": [
+      {
+        "time_us": 429832652,
+        "transfer": "Ci:3:043:0",
+        "status": -32,
+        "latency_ms": 0.216
+      },
+      {
+        "time_us": 429832841,
+        "transfer": "Ci:3:043:0",
+        "status": -32,
+        "latency_ms": 0.184
+      },
+      {
+        "time_us": 429833054,
+        "transfer": "Ci:3:043:0",
+        "status": -32,
+        "latency_ms": 0.212
+      }
+    ],
+    "maximum_control_latency_ms": 3.458,
+    "first_submission_to_first_8byte_keyboard_report_ms": 2219.428,
+    "malformed_rows": 0
+  },
+  "kernel_reset_count": 0,
+  "kernel_reset_lines": [],
+  "limitations": [
+    "USB address change confirms re-enumeration, not a measured power-off interval.",
+    "The first successful keyboard report depends on a key press and is not an exact readiness time.",
+    "Time before USB enumeration and BIOS behavior are not measured.",
+    "No keystroke payload is retained. The image label is user-supplied; firmware is not read or written."
+  ],
+  "comparison": {
+    "baseline": "reports/stock/report.json",
+    "baseline_label": "stock",
+    "eproto_before": 26,
+    "eproto_now": 0,
+    "kernel_resets_before": 2,
+    "kernel_resets_now": 0
+  }
+}

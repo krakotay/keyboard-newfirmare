@@ -1,0 +1,21 @@
+{
+  "format": "Full 65536-byte ISP read representation; not physical/JTAG flash layout",
+  "main_bytes": 61440,
+  "bootloader_bytes": 4096,
+  "original_rights": "Manufacturer firmware; excluded from the root MIT license. See THIRD_PARTY_NOTICES.md.",
+  "patch_license": "MIT for independently authored modification and tools only",
+  "patch_offset": "0x6881",
+  "before": "12e153",
+  "after": "02dfba",
+  "bootloader_unchanged": true,
+  "images": {
+    "patched-v2-full-isp.bin": {
+      "bytes": 65536,
+      "sha256": "97e1f51c616a61b400b079cb5cf3b6a8a0a63bed485a19fcd838e3fc2bb8f6be"
+    },
+    "stock-full-isp.bin": {
+      "bytes": 65536,
+      "sha256": "7b1b64d424aad7fe3f9397c2480e8bd12186bad0899dd4d88ee8e39ff4cd8a84"
+    }
+  }
+}

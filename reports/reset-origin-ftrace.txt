@@ -1,0 +1,124 @@
+# tracer: function
+#
+# entries-in-buffer/entries-written: 20/20   #P:16
+#
+#                                _-----=> irqs-off/BH-disabled
+#                               / _----=> need-resched
+#                              | / _---=> hardirq/softirq
+#                              || / _--=> preempt-depth
+#                              ||| / _-=> migrate-disable
+#                              |||| /     delay
+#           TASK-PID     CPU#  |||||  TIMESTAMP  FUNCTION
+#              | |         |   |||||     |         |
+    kworker/14:1-33796   [014] .....  9352.999207: hub_port_reset <-hub_port_init
+    kworker/14:1-33796   [014] .....  9352.999211: <stack trace>
+ => hub_port_reset
+ => hub_port_init
+ => hub_port_connect
+ => hub_port_connect_change
+ => port_event
+ => hub_event
+ => process_one_work
+ => worker_thread
+ => kthread
+ => ret_from_fork
+ => ret_from_fork_asm
+    kworker/14:1-33796   [014] .....  9353.111376: hub_port_reset <-hub_port_init
+    kworker/14:1-33796   [014] .....  9353.111380: <stack trace>
+ => hub_port_reset
+ => hub_port_init
+ => hub_port_connect
+ => hub_port_connect_change
+ => port_event
+ => hub_event
+ => process_one_work
+ => worker_thread
+ => kthread
+ => ret_from_fork
+ => ret_from_fork_asm
+    kworker/14:1-33796   [014] .....  9357.499458: usb_reset_device <-__usb_queue_reset_device
+    kworker/14:1-33796   [014] .....  9357.499462: <stack trace>
+ => usb_reset_device
+ => __usb_queue_reset_device
+ => process_one_work
+ => worker_thread
+ => kthread
+ => ret_from_fork
+ => ret_from_fork_asm
+    kworker/14:1-33796   [014] .....  9357.499464: usb_reset_and_verify_device <-usb_reset_device
+    kworker/14:1-33796   [014] .....  9357.499465: <stack trace>
+ => usb_reset_and_verify_device
+ => usb_reset_device
+ => __usb_queue_reset_device
+ => process_one_work
+ => worker_thread
+ => kthread
+ => ret_from_fork
+ => ret_from_fork_asm
+    kworker/14:1-33796   [014] .....  9357.499466: hub_port_reset <-hub_port_init
+    kworker/14:1-33796   [014] .....  9357.499467: <stack trace>
+ => hub_port_reset
+ => hub_port_init
+ => usb_reset_and_verify_device
+ => usb_reset_device
+ => __usb_queue_reset_device
+ => process_one_work
+ => worker_thread
+ => kthread
+ => ret_from_fork
+ => ret_from_fork_asm
+    kworker/14:1-33796   [014] .....  9357.611572: hub_port_reset <-hub_port_init
+    kworker/14:1-33796   [014] .....  9357.611576: <stack trace>
+ => hub_port_reset
+ => hub_port_init
+ => usb_reset_and_verify_device
+ => usb_reset_device
+ => __usb_queue_reset_device
+ => process_one_work
+ => worker_thread
+ => kthread
+ => ret_from_fork
+ => ret_from_fork_asm
+    kworker/14:2-36920   [014] .....  9357.754947: usb_reset_device <-__usb_queue_reset_device
+    kworker/14:2-36920   [014] .....  9357.754951: <stack trace>
+ => usb_reset_device
+ => __usb_queue_reset_device
+ => process_one_work
+ => worker_thread
+ => kthread
+ => ret_from_fork
+ => ret_from_fork_asm
+    kworker/14:2-36920   [014] .....  9357.755181: usb_reset_and_verify_device <-usb_reset_device
+    kworker/14:2-36920   [014] .....  9357.755182: <stack trace>
+ => usb_reset_and_verify_device
+ => usb_reset_device
+ => __usb_queue_reset_device
+ => process_one_work
+ => worker_thread
+ => kthread
+ => ret_from_fork
+ => ret_from_fork_asm
+    kworker/14:2-36920   [014] .....  9357.755183: hub_port_reset <-hub_port_init
+    kworker/14:2-36920   [014] .....  9357.755184: <stack trace>
+ => hub_port_reset
+ => hub_port_init
+ => usb_reset_and_verify_device
+ => usb_reset_device
+ => __usb_queue_reset_device
+ => process_one_work
+ => worker_thread
+ => kthread
+ => ret_from_fork
+ => ret_from_fork_asm
+    kworker/14:2-36920   [014] .....  9357.867485: hub_port_reset <-hub_port_init
+    kworker/14:2-36920   [014] .....  9357.867489: <stack trace>
+ => hub_port_reset
+ => hub_port_init
+ => usb_reset_and_verify_device
+ => usb_reset_device
+ => __usb_queue_reset_device
+ => process_one_work
+ => worker_thread
+ => kthread
+ => ret_from_fork
+ => ret_from_fork_asm

@@ -1,0 +1,6 @@
+[submodule "tools/sinowealth-kb-tool"]
+	path = tools/sinowealth-kb-tool
+	url = https://github.com/shihuihzh/sinowealth-kb-tool.git
+[submodule "references/smk"]
+	path = references/smk
+	url = https://github.com/carlossless/smk.git
